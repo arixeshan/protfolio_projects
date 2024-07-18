@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.header{
+    background-image: url(image/2header.jpg);
+    min-height: 98vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header span{
+     font-size: 50px;
+     margin-left: 20px;
+     color: white;
+     display: none;
+}
+.header i {
+    display: none;
+}
+ .Obutton {
+    margin-left: 15px;
+    display: flex;
+    margin-left: 220px;
+    margin-top: -30px;
+    border: 2px solid wheat;
+    padding: 1px;
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+nav {
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    font-size: 35px;
+    
+
+}
+.nav-menu {
+    flex: 1;
+    text-align: right;
+
+}
+.nav-menu  ul li {
+    list-style: none;
+   display: inline-block;
+   margin: 15px;
+   
+   
+}
+.nav-menu  ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-image {
+    position: absolute;
+    top: 30%;
+    width: 33%;
+    left: 50%;
+    transform: translate(25%,-25%);
+}
+.discription {
+    top: 40%;
+    position: absolute;
+   
+    color: white;
+    left: 5%;
+}
+.discription h1 {
+  font-size: 50px;
+}
+.discription p {
+    font-size: 17px;
+}
+.discription a {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    border: 2px solid wheat;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(208, 0, 191);
+    
+}
+.discription a:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+
+}
+nav i {
+    display: none;
+}
+@media (max-width:700px) {
+    nav i {
+        display: block;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+
+
+    }
+    .header i {
+        display: block;
+    }
+    
+.nav-menu {
+    position: absolute;
+    background: rgb( 0,0,0,0.5);
+    height: 100vh;
+    top:0;
+    width: 300px;
+
+    right: -300px;
+    text-align: left;
+    z-index: 1;
+    transition: 1s;
+  
+}
+.nav-menu ul li {
+    display: block;
+    margin: 10px 0;
+    margin-left: 50px;
+   
+    }
+    .nav-menu ul li:hover{
+        background-color: blue;
+        width: 60px;
+        
+    }
+  nav h3 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  nav i {
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .profile-image {
+    position: absolute;
+    top: 30%;
+    width: 60%;
+    left: 8%;
+    transform: translate(25%,-25%);
+    border-radius: 0, 10px;
+    border-radius: -50%;
+    box-shadow: rgb( rgb(144, 175, 144), rgb(71, 71, 226));
+    background-image: url(image/3header.jpg);
+    border-radius: 80px;
+  }
+  .discription  {
+    top:70%;
+  }
+  .Obutton {
+    margin-left: 15px;
+    display: flex;
+    margin-left: 220px;
+    margin-top: -30px;
+    border: 2px solid wheat;
+    padding: 1px;
+    background-color: blue;
+    color: white;
+    display: block;
+
+}
+.header span {
+    display: block;
+}
+.bejal {
+    display: none;
+}
+}
+.About{
+    margin: 0;
+}
+.About {
+   margin: 0;
+   background-color: blue;
+    
+}
+
+.About h1{
+ text-align: center;
+ margin-top: 2%;
+ font-size: 60px;
+ color: rgb(72, 16, 184);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-decoration: underline;
+ background-color: rgb(0, 0, 255);
+ color: white;
+}
+.pic img{
+    border-radius: 10000px;
+    background-color: rgb(246, 246, 246);
+    margin-left: 5%;
+    position: relative;
+    width: 400px;
+}
+.section {
+    display:flex ;
+    background-color: blue;
+    width: 100%;
+    margin: 0;
+    min-height: 70vh;
+   
+}
+.letter {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width:420px) {
+    .About h1{
+        font-size: 50px;
+    }
+    .pic img{
+        width: 250px;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 4%;
+        display: block;
+
+        
+    }
+    .letter {
+        font-size: 20px;
+        margin-top: 80%;
+    }
+    .skills{
+        display: none;
+    }
+
+}
+  
+
+
+
+.skills {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+}
+.oskil {
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 45%;
+    font-size: 25px;
+    color: rgb(255, 236, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.skills h2 {
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+}
+.Programming h1 {
+    margin-top: 6%;
+    font-size: 45px;
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-left: 30%;
+}
+.Programming li {
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 35px;
+    margin-left: 15%;
+
+
+
+}
+.heading {
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.Programming .bar {
+    display: block;
+    height: 3px;
+    border: 1px solid  rgb(249, 249, 249);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgb(220, 142, 122);
+   
+}
+.bar {
+    width: 460px;
+}
+.Programming .bar span {
+    height: 30px;
+    float: left;
+    background: yellow;
+  
+}
+
+.html{
+    width: 90%;
+    transition: 1s;
+    animation: html 2s;
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+.javascript{
+    width: 70%;
+    animation:javascript 2s;
+}
+.python{
+    width: 60%;
+    animation: python 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@media (max-width:420px) {
+    .skills{
+        display: inline-block;
+    }
+    .oskil h2 {
+      display: none;
+
+    }
+    .oskil img {
+        width: 200%;
+       
+        
+    }
+    .oskil p {
+        display: none;
+    }
+    .Programming {
+        width: 70%;
+        margin-left: -10%;
+       
+        
+    }
+    .Programming li {
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bar {
+        width: 360px;
+    }
+    .Programming .bar span {
+        height: 10px;
+        
+        background: rgb(255, 225, 0)
+   
+}
+.Programming h1  {
+    border: 4px dotted rgb(242, 14, 242) ;
+    width: 280px;
+    padding: 10px;
+    color: rgb(229, 214, 229) ;
+
+}
+}
